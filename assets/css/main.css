@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --clr-blue: #1A91F0;
-    --clr-blue-mid: #1170CD;
-    --clr-blue-dark: #1A1C6A;
-    --clr-white: #fff;
-    --clr-bright: #EFF2F9;
+    --clr-blue: #0b2d4a;
+    --clr-blue-mid: hsl(210, 62%, 35%);
+    --clr-blue-dark: #e3e3e8;
+    --clr-white: hsl(234, 38%, 95%);
+    --clr-bright: #a78d9d;
     --clr-dark: #1e2532;
-    --clr-black: #000;
-    --clr-grey: #656e83;
+    --clr-black: #4f1a1a;
+    --clr-grey: #1d3876;
     --clr-green: #084C41;
     --font-poppins: 'Poppins', sans-serif;
     --font-manrope: 'Manrope', sans-serif;;
@@ -28,6 +28,7 @@ html{
 body{
     font-size: 1.6rem;
     font-family: var(--font-poppins);
+    background-color: #a78d9d;
 }
 
 button{
@@ -199,8 +200,8 @@ a{
     color: var(--clr-blue);
 }
 .navbar-brand-icon{
-    width: 25px;
-    margin-right: 6px;
+    width: 125px;
+    margin-right: 10px;
     opacity: 0.8;
 }
 .brand-and-toggler{
@@ -303,7 +304,7 @@ a{
     padding: 3rem 0;
 }
 .footer-content p{
-    color: var(--clr-grey);
+    color: var(--clr-white);
 }
 .footer-content p span{
     color: var(--clr-white);
