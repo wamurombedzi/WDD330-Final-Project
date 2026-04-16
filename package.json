@@ -1,0 +1,27 @@
+{
+  "name": "wdd330-final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wamurombedzi/WDD330-Final-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wamurombedzi/WDD330-Final-Project/issues"
+  },
+  "homepage": "https://github.com/wamurombedzi/WDD330-Final-Project#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express.js": "^1.0.0",
+    "nodemon": "^3.1.14",
+    "stripe": "^22.0.1"
+  }
+}
